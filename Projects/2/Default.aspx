@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>IP</title>
-      <link rel="stylesheet" href="styles2.css">
+      <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h2><a href="../../" title="Home (Minsk)">
