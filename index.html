@@ -1,26 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Basic Snake HTML Game</title>
-  <meta charset="UTF-8">
-  <style>
-  html, body {
-    height: 100%;
+<link rel="stylesheet" href="../../styles2.css">
+
+
+<p>IT by Andrey</p>
+<h2>Projects: <a title="Project 0. Jef Raskin" href="Projects/0"> 0 </a>
+     <a title="Project 1" href="Projects/1"> 1 </a> 
+     <a title="Project 2" href="Projects/2"> 2 </a> 
+     <a title="Project 3" href="Projects/3"> 3 </a> 
+     <a title="Project 4" href="Projects/4"> 4 </a>
+     <a title="Project 5" href="Projects/5"> 5 </a> 
+     <a title="Project 6" href="Projects/6"> 6 </a> 
+     <a title="Project 7" href="Projects/7"> 7 </a> 
+     <a title="Project 8" href="Projects/8"> 8 </a> 
+     <a title="Project 9" href="Projects/9"> 9 </a> 
+     <a title="Project 10" href="Projects/A"> A </a> 
+     <a title="Project 11" href="Projects/B"> B </a> 
+     <a title="Project 12" href="Projects/C"> C </a>
+    </h2>
+
+<h1>IT by Andrei Kharytonenka</h1>
+
+<p><img src="images/animation.gif" alt="" width="450" /></p>
+<style>
+ html, main {
+    height: 70%;
     margin: 0;
   }
 
-  body {
-    background: black;
+  main {
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   canvas {
-    border: 1px solid white;
+    border: 4px solid rgb(0, 0, 0);
   }
   </style>
 </head>
-<body>
+<main>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -61,7 +78,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 4) {
+  if (++count < 5) {
     return;
   }
 
@@ -167,5 +184,9 @@ document.addEventListener('keydown', function(e) {
 // start the game
 requestAnimationFrame(loop);
 </script>
-</body>
+</main>
 </html>
+
+
+
+
